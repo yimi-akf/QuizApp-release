@@ -1,5 +1,10 @@
 # 趣味问答
 
+[![HarmonyOS](https://img.shields.io/badge/HarmonyOS-NEXT-blue)](https://developer.huawei.com/consumer/cn/harmonyos/)
+[![API](https://img.shields.io/badge/API-24%20(compatible)%20%C2%B7%2026%20(target)-green)](https://developer.huawei.com/consumer/cn/harmonyos/)
+[![Latest](https://img.shields.io/github/v/release/yimi-akf/QuizApp-release?label=latest)](../../releases/latest)
+[![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-orange)](#许可)
+
 > HarmonyOS NEXT 答题应用 · 知识 · 推理 · 脑筋急转弯
 
 ## 应用简介
@@ -87,6 +92,20 @@
 4. 新增数据处理功能，支持数据导出、导入与一键清除
 5. 优化界面色彩与按钮显示，深色模式下显示更清晰
 6. 修复部分已知问题，优化使用体验
+
+## 常见问题
+
+**Q：应用会联网或上传我的数据吗？**
+A：不会。应用**自身不发起任何网络请求**、**不申请任何权限**（无 `INTERNET`），所有答题数据仅保存在本机。唯一的涉网能力是「检查更新」，它调用华为官方能力（AppGallery Kit），**联网由应用市场服务完成**，断网时静默失败，不影响任何答题功能。
+
+**Q：如何更新到新版本？**
+A：两种方式：① 华为应用市场的自动更新（默认）② 应用内「**我的 → 检查更新**」手动检测，有新版会弹出应用市场的更新弹窗。
+
+**Q：支持哪些设备和系统？**
+A：HarmonyOS NEXT（API 24 / 鸿蒙 6.1.1）及以上，**已适配鸿蒙 7（API 26）**；直板屏与折叠屏（如 Mate X7 等普通大折叠）均支持。
+
+**Q：卸载或清除数据会怎样？**
+A：所有数据仅存本机。「我的 → 数据处理」可导出 JSON 备份、导入恢复或一键清除；卸载应用会同时删除全部本地数据，建议先导出备份。
 
 ## 联系方式
 
