@@ -27,7 +27,9 @@
 
 ## 下载安装
 
-前往 [Releases](../../releases) 页面下载最新版本的 `.app` 安装包。
+前往 [Releases](../../releases) 页面下载 `QuizApp-vX.Y.Z.zip`，**解压后得到 `.app` 安装包**。
+
+> GitHub 的附件不支持 `.app` 后缀（会被识别为应用包扩展名而被拒），因此统一以 zip 分发。
 
 **系统要求**：HarmonyOS NEXT（**API 24 / 鸿蒙 6.1.1**）及以上；已适配 **鸿蒙 7（API 26）**
 
